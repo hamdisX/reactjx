@@ -6,7 +6,7 @@ pipeline {
     ORG = 'hamdimiled'
     APP_NAME = 'reactjx'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
-    DOCKER_REGISTRY_ORG = 'hamdismiled@gmailcom'
+    DOCKER_REGISTRY_ORG = 'hamdimiled'
   }
   stages {
     stage('CI Build and push snapshot') {
