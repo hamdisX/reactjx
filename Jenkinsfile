@@ -3,7 +3,7 @@ pipeline {
     label "jenkins-nodejs"
   }
   environment {
-    ORG = 'hamdismiled-gmailcom'
+    ORG = 'hamdimiled'
     APP_NAME = 'reactjx'
     CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     DOCKER_REGISTRY_ORG = 'hamdismiled@gmailcom'
