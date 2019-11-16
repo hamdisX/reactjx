@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: hamdismiled@gmailcom/reactjx
+  - image: hamdimiled/reactjx
     context: .
     docker: {}
   tagPolicy:
